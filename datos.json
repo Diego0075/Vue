@@ -1,0 +1,278 @@
+{
+    "espanol":{
+
+        "menu":{    
+
+        },
+
+        "sobremi": {
+            "nombre": "Diego",
+            "apellidos": "Salinas Gámez",
+            "direccion" : "C/ Camino Viejo de Güejar Sierra 10 p4 5ºD",
+            "correo": "diegosalinasgamez@gmail.com",
+            "telefono": "699758990",
+            "cuerpo": "Soy un estudiante de 20 años que cursa el ultimo año de desarrollo de aplicaciones ",
+            "redes": {
+                "linkedin":{
+                    "icono":"",
+                    "enlace":"https://www.linkedin.com/in/diego-salinas-94a931138/"
+                },
+                "github":{
+                    "icono":"",
+                    "enlace":"https://github.com/Diego0075"
+                }
+            }
+        },
+
+        "experiencia": {
+            "trabajos":{
+                "trabajo1":{
+                    "puesto": "Camarero en Barra",
+                    "empresa":"Cafe/Pub Mister Bares",
+                    "cuerpo":"Labores en barra y conteo de caja",
+                    "fecha": "Julio 2019 - Septiembre 2019"
+
+                },
+                "trabajo2":{
+                    "puesto": "Camarero en Barra",
+                    "empresa":"Cafe/Pub Mister Bares",
+                    "cuerpo":"Labores en barra y conteo de caja",
+                    "fecha": "Julio 2018 - Septiembre 2018"
+                }
+            }
+        },
+
+        "educacion":{
+            "estudios":{
+                "secundaria":{
+                    "nombre": "Educacion Secundaria Obligatoria - I.E.S Miguel de Cervantes",
+                    "fecha":"Septiembre 2012 - Junio 2016"
+                },
+                "bachiller":{
+                    "nombre": "Bachillerato Cientifico Tecnologico - I.E.S Miguel de Cervantes",
+                    "fecha":"Septiembre 2016 - Junio 2019"
+                },
+                "ciclo":{
+                    "nombre": "Desarrollo de Aplicaciones Web (CFGS) - I.E.S Francisco Ayala",
+                    "fecha":"Septiembre 2019 - Junio 2021"
+                }
+            }
+        },
+
+        "destrezas":{
+            "lista":{
+                "destrezas":{
+                    "1": "Creatividad y originalidad",
+                    "2": "Ética",
+                    "3": "Pensamiento Crítico",
+                    "4": "Iniciativa",
+                    "5": "Resolucion de problemas"
+
+                },
+                "habilidades":{
+                    "1": "JavaScript",
+                    "2": "Vue",
+                    "3": "Angular",
+                    "4": "Bootstrap",
+                    "5": "PHP",
+                    "6": "Html",
+                    "7": "CSS"
+                }
+            }
+        },
+
+        "proyectos":{
+            "portfolio":{
+                "0":{
+                    "nombreProyecto":"Ping-Pong",
+                    "linkProduccion":"",
+                    "linkRepo":"",
+                    "capturas": "",
+                    "cuerpo":"",
+                    "tecnologia": ""
+                },
+
+                "1":{
+                    "nombreProyecto":"Landing-Page",
+                    "linkPages":"",
+                    "linkGithuB":"",
+                    "capturas": "",
+                    "cuerpo":"",
+                    "tecnologia": ""
+                },
+
+                "3":{
+                    "nombreProyecto":"API",
+                    "linkPages":"",
+                    "linkGithuB":"",
+                    "capturas": "",
+                    "cuerpo":"",
+                    "tecnologia": ""
+                }
+            }
+        },
+
+        "idiomas":{
+            "idioma1":{
+                "idioma":"Inglés",
+                "1":"Oral: Nivel - B2",
+                "2":"Compresion lectora: Nivel - B2",
+                "3":"Compresion esctrita: Nivel - B2"
+            },
+
+            "idioma2":{
+                "idioma":"Español",
+                "1":"Oral: Nivel - Nativo",
+                "2":"Compresion lectora: Nivel - Nativo",
+                "3":"Compresion esctrita: Nivel - Nativo"
+            }
+        },
+
+        "form":{
+            "nombre":"Nombre",
+            "email":"Email",
+            "cuerpo":"¡Contactame!",
+            "boton":"Enviar"
+        }
+
+},   
+
+    "ingles":{
+        
+        "menu":{
+            
+        },
+
+        "sobremi": {
+            "nombre": "Diego",
+            "apellidos": "Salinas Gámez",
+            "direccion" : "C/ Camino Viejo de Güejar Sierra 10 p4 5ºD",
+            "correo": "diegosalinasgamez@gmail.com",
+            "telefono": "699758990",
+            "cuerpo": "I´m 20 years old student who is cursing my last year as web developer ",
+            "redes": {
+                "linkedin":{
+                    "icono":"",
+                    "enlace":"https://www.linkedin.com/in/diego-salinas-94a931138/"
+                },
+                "github":{
+                    "icono":"",
+                    "enlace":"https://github.com/Diego0075"
+                }
+            }
+        },
+
+        "experiencia": {
+            "trabajos":{
+                "trabajo1":{
+                    "puesto": "Barman",
+                    "empresa":"Cafe/Pub Mister Bares",
+                    "cuerpo":"Prepare work areas for service.",
+                    "fecha": "July 2019 - September 2019"
+
+                },
+                "trabajo2":{
+                    "puesto": "Barman",
+                    "empresa":"Cafe/Pub Mister Bares",
+                    "cuerpo":"Prepare work areas for service.",
+                    "fecha": "July 2018 - September 2018"
+                }
+            }
+        },
+
+        "educacion":{
+            "estudios":{
+                "secundaria":{
+                    "nombre": "Secondary Education - I.E.S Miguel de Cervantes",
+                    "fecha":"September 2012 - June 2016"
+                },
+                "bachiller":{
+                    "nombre": "High School - I.E.S Miguel de Cervantes",
+                    "fecha":"September 2016 - June 2019"
+                },
+                "ciclo":{
+                    "nombre": "Certificate of Higher Education- I.E.S Francisco Ayala",
+                    "fecha":"September 2019 - June 2021"
+                }
+            }
+        },
+
+        "destrezas":{
+            "lista":{
+                "destrezas":{
+                    "1": "Creativity and originality",
+                    "2": "Ethic",
+                    "3": "Critical thinking",
+                    "4": "Initiative",
+                    "5": "Problem Solving"
+
+                },
+                "habilidades":{
+                    "1": "JavaScript",
+                    "2": "Vue",
+                    "3": "Angular",
+                    "4": "Bootstrap",
+                    "5": "PHP",
+                    "6": "Html",
+                    "7": "CSS"
+                }
+            }
+        },
+
+        "proyectos":{
+            "portfolio":{
+                "0":{
+                    "nombreProyecto":"Ping-Pong",
+                    "linkProduccion":"",
+                    "linkRepo":"",
+                    "capturas": "",
+                    "cuerpo":"",
+                    "tecnologia": ""
+                },
+
+                "1":{
+                    "nombreProyecto":"Landing-Page",
+                    "linkPages":"",
+                    "linkGithuB":"",
+                    "capturas": "",
+                    "cuerpo":"",
+                    "tecnologia": ""
+                },
+
+                "3":{
+                    "nombreProyecto":"API",
+                    "linkPages":"",
+                    "linkGithuB":"",
+                    "capturas": "",
+                    "cuerpo":"",
+                    "tecnologia": ""
+                }
+            }
+        },
+
+        "idiomas":{
+            "idioma1":{
+                "idioma":"English",
+                "1":"Speaking Level: B2",
+                "2":"Reading comprehension: B2 Level",
+                "3":"CWritten compression: B2 Level"
+            },
+
+            "idioma2":{
+                "idioma":"Spanish",
+                "1":"Speaking Level: Native",
+                "2":"Reading comprehension: Native",
+                "3":"Written compression: Native"
+            }
+        },
+
+        "form":{
+            "nombre":"Name",
+            "email":"Email",
+            "cuerpo":"Contact me!",
+            "boton":"Send"
+        }
+    }
+
+
+}
