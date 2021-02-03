@@ -1,13 +1,22 @@
 {
-    "nombre":"dasdas",
 
     "espanol":{
 
         "menu":{    
+            "item1":"Sobre mi",
+            "item2":"Experiencia",
+            "item3":"Educacion",
+            "item4":"Destrezas",
+            "item5":"Proyectos",
+            "item6":"Idiomas",
+            "item7":"Contacto",
+            "item8":"Cambiar idioma",
+            "item9":"Ingles"
 
         },
 
         "sobremi": {
+            "img":"/img/yo.png",
             "nombre": "Diego",
             "apellidos": "Salinas Gámez",
             "direccion" : "C/ Camino Viejo de Güejar Sierra 10 p4 5ºD",
@@ -16,11 +25,11 @@
             "cuerpo": "Soy un estudiante de 20 años que cursa el ultimo año de desarrollo de aplicaciones ",
             "redes": {
                 "linkedin":{
-                    "icono":"",
+                    "icono":"/img/linkedin.png",
                     "enlace":"https://www.linkedin.com/in/diego-salinas-94a931138/"
                 },
                 "github":{
-                    "icono":"",
+                    "icono":"/img/github.png",
                     "enlace":"https://github.com/Diego0075"
                 }
             }
@@ -142,7 +151,15 @@
     "ingles":{
         
         "menu":{
-            
+            "item1":"About me",
+            "item2":"Experience",
+            "item3":"Education",
+            "item4":"Skills",
+            "item5":"Proyects",
+            "item6":"Languages",
+            "item7":"Contact",
+            "item8":"Change language",
+            "item9":"Spanish"
         },
 
         "sobremi": {
@@ -154,11 +171,11 @@
             "cuerpo": "I´m 20 years old student who is cursing my last year as web developer ",
             "redes": {
                 "linkedin":{
-                    "icono":"",
+                    "icono":"/img/linkedin.png",
                     "enlace":"https://www.linkedin.com/in/diego-salinas-94a931138/"
                 },
                 "github":{
-                    "icono":"",
+                    "icono":"/img/github.png",
                     "enlace":"https://github.com/Diego0075"
                 }
             }

@@ -11,27 +11,54 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
   </head>
   <body>
+<div id="app">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Mi CV</a>
 
-    <diV id="app">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{menuObtenido.item1}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{menuObtenido.item2}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{menuObtenido.item3}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{menuObtenido.item4}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{menuObtenido.item5}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{menuObtenido.item6}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">{{menuObtenido.item7}}</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{menuObtenido.item8}}</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" v-on:click="cambioIdioma">{{menuObtenido.item9}}</a>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
 
-        <h1>{{nombreObtenido}}</h1>
-        <h2>{{apellidoObtenido}}</h2>
 
 
 
 
 
-
-
-
-    </diV>
-
-
-
-
-
-
-
+  </div>
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

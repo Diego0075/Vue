@@ -5,7 +5,9 @@ window.onload = function (){
 var app= new Vue({
     el:'#app',
     data:{
-    datos: null
+    datos: null,
+    espanol:false,
+    
     },
     mounted(){
             axios.get('datos.json')
@@ -18,10 +20,14 @@ var app= new Vue({
             });
     },
     methods:{
-
-        
+        cambioIdioma: function(){
+        this.espanol=!this.espanol;
+        }
     },
+    
     computed:{
+       
+
         nombreObtenido: function(){
              if (this.datos === null){
                  return "";
@@ -36,7 +42,19 @@ var app= new Vue({
             }
             return this.datos.espanol.sobremi.apellidos;
 
+        },
+        menuObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.menu;
+            }else{
+                return this.datos.ingles.menu;
+            }
+            
         }
+
         
     }
 
