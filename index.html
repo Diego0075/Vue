@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title></title>
+    <title>Mi curriculum</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body data-spy="scroll" data-offset="60" data-target="#cvNavBar">
 <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="cvNavBar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">Mi CV</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,13 @@
           <li class="nav-item">
             <a class="nav-link" href="#">{{menuObtenido.item7}}</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{menuObtenido.item8}}</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" v-on:click="cambioIdioma">{{menuObtenido.item9}}</a>
-            </div>
+          <!-- <div class="d-flex justify-content-end"> -->
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{menuObtenido.item8}}</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item " v-on:click="cambioIdioma">{{menuObtenido.item9}}<img id=bandera :src="menuObtenido.bandera"/></a>
+              <!-- </div> -->
+          </div>
           </li>
         </ul>
         

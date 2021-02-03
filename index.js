@@ -6,7 +6,7 @@ var app= new Vue({
     el:'#app',
     data:{
     datos: null,
-    espanol:false,
+    espanol:true,
     
     },
     mounted(){

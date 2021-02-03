@@ -11,7 +11,8 @@
             "item6":"Idiomas",
             "item7":"Contacto",
             "item8":"Cambiar idioma",
-            "item9":"Ingles"
+            "item9":"Ingles",
+            "bandera":"/img/ingles.jpg"
 
         },
 
@@ -159,7 +160,8 @@
             "item6":"Languages",
             "item7":"Contact",
             "item8":"Change language",
-            "item9":"Spanish"
+            "item9":"Spanish",
+            "bandera":"/img/españa.png"
         },
 
         "sobremi": {
