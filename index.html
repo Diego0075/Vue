@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
   </head>
   <body data-spy="scroll" data-offset="60" data-target="#cvNavBar">
-<div id="app">
+<div v-if=this.datos id="app">
     <nav id="cvNavBar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">Mi CV</a>
 
@@ -55,16 +54,74 @@
       </div>
     </nav>
 
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-2">
+          <img :src="sobremiObtenido.img" class="rounded-circle" width="120px"/>
+        </div>
 
+        <div class="col-md-10">
+          <div class="page-header">
+            <h1>
+              {{sobremiObtenido.nombre}} <small>{{sobremiObtenido.apellidos}}</small>
+            </h1>
+          </div>
+          <p class="text-left">
+            {{sobremiObtenido.direccion}} , {{sobremiObtenido.correo}} , {{sobremiObtenido.telefono}}
+          </p>
+          <p class="text-left">
+            {{sobremiObtenido.cuerpo}} 
+          </p>
+          
+          <div class="col-md-12">
+          </div>
 
+          <div>
+             <a :href="sobremiObtenido.redes.linkedin.enlace"><img :src="sobremiObtenido.redes.linkedin.icono" class="rounded-circle mr-3" width="110px"/></a>
+            <a :href="sobremiObtenido.redes.github.enlace"> <img :src="sobremiObtenido.redes.github.icono" class="rounded-circle" width="110px"/></a>
+          </div>
+        </div>
+        
 
-
-
-  </div>
+        <div class="col-md-12 mt-5">
+          <h2 class="mb-3">{{experienciaObtenido.titulo}}</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card-columns card text-center"><img src="/img/misterbares.jpg" alt="..." class="card-img-top">
+                <div class="card-body"><h5 class="card-title">{{experienciaObtenido.trabajos.trabajo1.empresa}} - {{experienciaObtenido.trabajos.trabajo1.puesto}}</h5>
+                  <p class="card-text">{{experienciaObtenido.trabajos.trabajo1.cuerpo}}</p>
+                  <p class="card-text">{{experienciaObtenido.trabajos.trabajo1.fecha}}</p>          
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class=" card-columns card text-center"><img height="400px" src="/img/nabat.jpg" alt="..." class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">{{experienciaObtenido.trabajos.trabajo2.empresa}} - {{experienciaObtenido.trabajos.trabajo2.puesto}}</h5>
+                    <p class="card-text">{{experienciaObtenido.trabajos.trabajo2.cuerpo}}</p>
+                    <p class="card-text">{{experienciaObtenido.trabajos.trabajo2.fecha}}</p>            
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-columns card text-center">
+                <img height="400px" src="/img/charcones.jpg" alt="..." class="card-img-top">
+                  <div class="card-body">
+                      <h5 class="card-title">{{experienciaObtenido.trabajos.trabajo3.empresa}} - {{experienciaObtenido.trabajos.trabajo3.puesto}}</h5>
+                    <p class="card-text">{{experienciaObtenido.trabajos.trabajo3.cuerpo}}</p>
+                    <p class="card-text">{{experienciaObtenido.trabajos.trabajo3.fecha}}</p> 
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
 </body>
 
 </html>

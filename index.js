@@ -1,3 +1,9 @@
+// $(document).ready(function(){
+//     $("#tooltipex").tooltip({
+        
+//     });
+// });
+
 window.onload = function (){
 
 }
@@ -22,27 +28,30 @@ var app= new Vue({
     methods:{
         cambioIdioma: function(){
         this.espanol=!this.espanol;
-        }
+        },
+        onOpen() {
+            this.$refs.tooltip.$emit('open')
+          },
+          onClose() {
+            this.$refs.tooltip.$emit('close')
+          }
     },
     
     computed:{
        
 
-        nombreObtenido: function(){
+        sobremiObtenido: function(){
              if (this.datos === null){
                  return "";
              }
-             return this.datos.espanol.sobremi.nombre;
+             if(this.espanol){
+             return this.datos.espanol.sobremi;
+             }else{
+                 return this.datos.ingles.sobremi;
+             }
 
          },
 
-         apellidoObtenido: function(){
-            if (this.datos === null){
-                return "";
-            }
-            return this.datos.espanol.sobremi.apellidos;
-
-        },
         menuObtenido: function(){
             if (this.datos === null){
                 return "";
@@ -53,6 +62,17 @@ var app= new Vue({
                 return this.datos.ingles.menu;
             }
             
+        },
+
+        experienciaObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.experiencia;
+            }else{
+                return this.datos.ingles.experiencia;
+            }
         }
 
         

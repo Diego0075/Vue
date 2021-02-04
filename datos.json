@@ -23,8 +23,9 @@
             "direccion" : "C/ Camino Viejo de Güejar Sierra 10 p4 5ºD",
             "correo": "diegosalinasgamez@gmail.com",
             "telefono": "699758990",
-            "cuerpo": "Soy un estudiante de 20 años que cursa el ultimo año de desarrollo de aplicaciones ",
+            "cuerpo": "Soy un estudiante de 20 años que cursa el ultimo año de desarrollo de aplicaciones. Me considero un chico ambicioso y con grandes objetivos los cuales espero poco a poco ir alcanzando. Si estas interesado en contactar conmigo puedes hacerlo mediante el formulario que se encuentra más abajo, o en cualquiera de mis redes sociales.",
             "redes": {
+                "cuerpo":"RRSS",
                 "linkedin":{
                     "icono":"/img/linkedin.png",
                     "enlace":"https://www.linkedin.com/in/diego-salinas-94a931138/"
@@ -37,19 +38,26 @@
         },
 
         "experiencia": {
+            "titulo":"Mi Experiencia",
             "trabajos":{
                 "trabajo1":{
                     "puesto": "Camarero en Barra",
                     "empresa":"Cafe/Pub Mister Bares",
                     "cuerpo":"Labores en barra y conteo de caja",
-                    "fecha": "Julio 2019 - Septiembre 2019"
+                    "fecha": "Julio 2018 - Septiembre 2018"
 
                 },
                 "trabajo2":{
                     "puesto": "Camarero en Barra",
-                    "empresa":"Cafe/Pub Mister Bares",
-                    "cuerpo":"Labores en barra y conteo de caja",
-                    "fecha": "Julio 2018 - Septiembre 2018"
+                    "empresa":"Discoteca Pub Nabat",
+                    "cuerpo":"Elaboración de bebidas esperituosas y conteo de caja",
+                    "fecha": "Julio 2019 - Septiembre 2019"
+                },
+                "trabajo3":{
+                    "puesto": "Camarero en Barra",
+                    "empresa":"El rincon de los charcones",
+                    "cuerpo":"Labores en barra y ayudante de cocina",
+                    "fecha": "Julio 2019 - Septiembre 2019"
                 }
             }
         },
@@ -165,6 +173,7 @@
         },
 
         "sobremi": {
+            "img":"/img/yo.png",
             "nombre": "Diego",
             "apellidos": "Salinas Gámez",
             "direccion" : "C/ Camino Viejo de Güejar Sierra 10 p4 5ºD",
@@ -184,19 +193,26 @@
         },
 
         "experiencia": {
+            "titulo":"My Experience",
             "trabajos":{
                 "trabajo1":{
                     "puesto": "Barman",
                     "empresa":"Cafe/Pub Mister Bares",
-                    "cuerpo":"Prepare work areas for service.",
-                    "fecha": "July 2019 - September 2019"
+                    "cuerpo":"Labores en barra y conteo de caja",
+                    "fecha": "Julio 2018 - Septiembre 2018"
 
                 },
                 "trabajo2":{
+                    "puesto": "Club Bartender",
+                    "empresa":"Discoteca Pub Nabat",
+                    "cuerpo":"Elaboración de bebidas esperituosas y copnteo de caja",
+                    "fecha": "Julio 2019 - Septiembre 2019"
+                },
+                "trabajo3":{
                     "puesto": "Barman",
-                    "empresa":"Cafe/Pub Mister Bares",
-                    "cuerpo":"Prepare work areas for service.",
-                    "fecha": "July 2018 - September 2018"
+                    "empresa":"El rincon de los charcones",
+                    "cuerpo":"Labores en barra y ayudante de cocina",
+                    "fecha": "Julio 2019 - Septiembre 2019"
                 }
             }
         },
