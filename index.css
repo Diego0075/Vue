@@ -1,3 +1,4 @@
+
 input:invalid:required:focus{
     border: 1px solid red;
 }
@@ -6,9 +7,7 @@ input:valid{
     border: 1px solid green;
 }
 
-#experiencia1{
 
-}
 
 #personas{
     max-width: 75px;
@@ -23,6 +22,7 @@ body{
 #bandera{
     margin-left: 15px;
     width: 35%;
+    max-width: 75px;
 }
 
 #tituloidioma{
