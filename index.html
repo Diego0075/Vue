@@ -89,7 +89,7 @@
           <h2 class="mb-3">{{experienciaObtenido.titulo}}</h2>
           <div class="row">
             <div class="col-md-4">
-              <div class="card-columns card text-center"><img src="/img/misterbares.jpg" alt="..." class="card-img-top">
+              <div class="card-columns card text-center"><img :src="experienciaObtenido.trabajos.trabajo1.img" alt="..." class="card-img-top">
                 <div class="card-body"><h5 class="card-title">{{experienciaObtenido.trabajos.trabajo1.empresa}} - {{experienciaObtenido.trabajos.trabajo1.puesto}}</h5>
                   <p class="card-text">{{experienciaObtenido.trabajos.trabajo1.cuerpo}}</p>
                   <p class="card-text">{{experienciaObtenido.trabajos.trabajo1.fecha}}</p>          
@@ -97,7 +97,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class=" card-columns card text-center"><img height="400px" src="/img/nabat.jpg" alt="..." class="card-img-top">
+              <div class=" card-columns card text-center"><img height="400px" :src="experienciaObtenido.trabajos.trabajo2.img" alt="..." class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">{{experienciaObtenido.trabajos.trabajo2.empresa}} - {{experienciaObtenido.trabajos.trabajo2.puesto}}</h5>
                     <p class="card-text">{{experienciaObtenido.trabajos.trabajo2.cuerpo}}</p>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-md-4">
               <div class="card-columns card text-center">
-                <img height="400px" src="/img/charcones.jpg" alt="..." class="card-img-top">
+                <img height="400px" :src="experienciaObtenido.trabajos.trabajo3.img" alt="..." class="card-img-top">
                   <div class="card-body">
                       <h5 class="card-title">{{experienciaObtenido.trabajos.trabajo3.empresa}} - {{experienciaObtenido.trabajos.trabajo3.puesto}}</h5>
                     <p class="card-text">{{experienciaObtenido.trabajos.trabajo3.cuerpo}}</p>

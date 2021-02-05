@@ -41,6 +41,7 @@
             "titulo":"Mi Experiencia",
             "trabajos":{
                 "trabajo1":{
+                    "img":"img/misterbares.jpg",
                     "puesto": "Camarero en Barra",
                     "empresa":"Cafe/Pub Mister Bares",
                     "cuerpo":"Labores en barra y conteo de caja",
@@ -48,12 +49,14 @@
 
                 },
                 "trabajo2":{
+                    "img":"img/nabat.jpg",
                     "puesto": "Camarero en Barra",
                     "empresa":"Discoteca Pub Nabat",
                     "cuerpo":"Elaboración de bebidas esperituosas y conteo de caja",
                     "fecha": "Julio 2019 - Septiembre 2019"
                 },
                 "trabajo3":{
+                    "img":"img/charcones.jpg",
                     "puesto": "Camarero en Barra",
                     "empresa":"El rincon de los charcones",
                     "cuerpo":"Labores en barra y ayudante de cocina",
@@ -123,7 +126,7 @@
                     "nombreproyecto":"PcStation",
                     "linkpages":" No se encuentra en producción",
                     "linkgithub":"https://github.com/Diego0075/PcStation",
-                    "capturas": "/img/pc2.png",
+                    "capturas": "img/pc2.png",
                     "cuerpo":"Este es un proyecto que hicimos un compañero y yo en conjunto para la asignatura de interfaces, donde debíamos imitar una paguina web que previamente habíamos maquetado.",
                     "tecnologia": "HTML,CSS, uso de FlexBox con Grid",
                     "botonmodal":"Cerrar"
@@ -134,7 +137,7 @@
                     "nombreproyecto":"Tele-Huerto",
                     "linkpages":"https://diego0075.github.io/JQuery-Proyecto/",
                     "linkgithub":"https://github.com/Diego0075/JQuery-Proyecto",
-                    "capturas": "/img/telehuerto.png",
+                    "capturas": "img/telehuerto.png",
                     "cuerpo":"Este es un proyecto que cree como la clase de interfaces y cliente. Se trata de una landing page que muestra y carga contenido dinamicamente mediante peticiones ajax, y qu eestá maquetado mediante el uso de FlexBox y CSS Grid ",
                     "tecnologia": "CSS,JS,JQuery,HTML5",
                     "botonmodal":"Cerrar"
@@ -144,7 +147,7 @@
                     "nombreproyecto":"XKCD-Comic",
                     "linkpages":"https://diego0075.github.io/XKCD-Comic/",
                     "linkgithub":"https://github.com/Diego0075/XKCD-Comic",
-                    "capturas": "/img/xkdc.png",
+                    "capturas": "img/xkdc.png",
                     "cuerpo":"Este proyecto está desarrollado para la clase de clientes, donde mediante una api que devuelve datos, es mostrada toda ella y maquetada en una página web.",
                     "tecnologia": "Uso de AJAX y Api,JS,HTMl,CSS",
                     "botonmodal":"Cerrar"
@@ -166,7 +169,7 @@
             },
 
             "idioma2":{
-                "bandera":"/img/espana.png",
+                "bandera":"img/espana.png",
                 "idioma":"Español",
                 "1":"Oral",
                 "nivel1":"Nivel - Nativo",
@@ -199,7 +202,7 @@
             "item7":"Contact",
             "item8":"Change language",
             "item9":"Spanish",
-            "bandera":"/img/espana.png"
+            "bandera":"img/espana.png"
         },
 
         "sobremi": {
@@ -212,11 +215,11 @@
             "cuerpo": "I´m 20 years old student who is cursing my last year as web developer ",
             "redes": {
                 "linkedin":{
-                    "icono":"/img/linkedin.png",
+                    "icono":"img/linkedin.png",
                     "enlace":"https://www.linkedin.com/in/diego-salinas-94a931138/"
                 },
                 "github":{
-                    "icono":"/img/github.png",
+                    "icono":"img/github.png",
                     "enlace":"https://github.com/Diego0075"
                 }
             }
@@ -226,6 +229,7 @@
             "titulo":"My Experience",
             "trabajos":{
                 "trabajo1":{
+                    "img":"img/misterbares.jpg",
                     "puesto": "Barman",
                     "empresa":"Cafe/Pub Mister Bares",
                     "cuerpo":"Bar work and cash register counting",
@@ -233,12 +237,14 @@
 
                 },
                 "trabajo2":{
+                    "img":"img/nabat.jpg",
                     "puesto": "Club Bartender",
                     "empresa":"Discoteca Pub Nabat",
                     "cuerpo":"Service of alcoholic beverages and cash register count",
                     "fecha": "July 2019 - September 2019"
                 },
                 "trabajo3":{
+                    "img":"img/charcones.jpg",
                     "puesto": "Barman",
                     "empresa":"El rincon de los charcones",
                     "cuerpo":"Bar work and kitchen assistant",
@@ -306,7 +312,7 @@
                     "nombreproyecto":"PcStation",
                     "linpages":" Not available",
                     "linkgithub":"https://github.com/Diego0075/PcStation",
-                    "capturas": "/img/pc2.png",
+                    "capturas": "img/pc2.png",
                     "cuerpo":"This a project that I created with another mate, we created that web based on a previous design ",
                     "tecnologia": "HTML,CSS, also use of Flexbox and Grid",
                     "botonmodal":"Close"
@@ -317,7 +323,7 @@
                     "nombreproyecto":"Tele-Huerto",
                     "linkpages":"https://diego0075.github.io/JQuery-Proyecto/",
                     "linkgithub":"https://github.com/Diego0075/JQuery-Proyecto",
-                    "capturas": "/img/telehuerto.png",
+                    "capturas": "img/telehuerto.png",
                     "cuerpo":"This is a project made for two different subjects. It´s about a landing page which load the contain dynamically based on Ajax technology and using JS. To create the design we used Flexbox and Grid as primary raw in CSS",
                     "tecnologia": "CSS,JS,JQuery,HTML5",
                     "botonmodal":"Close"
@@ -327,7 +333,7 @@
                     "nombreproyecto":"XKCD-Comic",
                     "linkpages":"https://diego0075.github.io/XKCD-Comic/",
                     "linkgithub":"https://github.com/Diego0075/XKCD-Comic",
-                    "capturas": "/img/xkdc.png",
+                    "capturas": "img/xkdc.png",
                     "cuerpo":"This project was created from an api which give to us info and links where I used Js functions to show that information and content",
                     "tecnologia": "Use of AJAX and Api,JS,HTMl,CSS",
                     "botonmodal":"Close"
@@ -338,7 +344,7 @@
         "idiomas":{
             "titulo":"Languages",
             "idioma1":{
-                "bandera":"/img/ingles.jpg",
+                "bandera":"img/ingles.jpg",
                 "idioma":"English",
                 "1":"Speaking",
                 "nivel1":"Level - B2",
@@ -350,7 +356,7 @@
             },
 
             "idioma2":{
-                "bandera":"/img/espana.png",
+                "bandera":"img/espana.png",
                 "idioma":"Spanish",
                 "1":"Speaking Level",
                 "nivel1":"Lebel - Native",
