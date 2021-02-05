@@ -137,7 +137,7 @@
                     "nombreproyecto":"Tele-Huerto",
                     "linkpages":"https://diego0075.github.io/JQuery-Proyecto/",
                     "linkgithub":"https://github.com/Diego0075/JQuery-Proyecto",
-                    "capturas": "img/telehuerto.png",
+                    "capturas": "img/telehuerto.PNG",
                     "cuerpo":"Este es un proyecto que cree como la clase de interfaces y cliente. Se trata de una landing page que muestra y carga contenido dinamicamente mediante peticiones ajax, y qu eestá maquetado mediante el uso de FlexBox y CSS Grid ",
                     "tecnologia": "CSS,JS,JQuery,HTML5",
                     "botonmodal":"Cerrar"
