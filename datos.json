@@ -126,7 +126,7 @@
                     "nombreproyecto":"PcStation",
                     "linkpages":" No se encuentra en producción",
                     "linkgithub":"https://github.com/Diego0075/PcStation",
-                    "capturas": "img/pc2.png",
+                    "capturas": "img/pc2.PNG",
                     "cuerpo":"Este es un proyecto que hicimos un compañero y yo en conjunto para la asignatura de interfaces, donde debíamos imitar una paguina web que previamente habíamos maquetado.",
                     "tecnologia": "HTML,CSS, uso de FlexBox con Grid",
                     "botonmodal":"Cerrar"
@@ -147,7 +147,7 @@
                     "nombreproyecto":"XKCD-Comic",
                     "linkpages":"https://diego0075.github.io/XKCD-Comic/",
                     "linkgithub":"https://github.com/Diego0075/XKCD-Comic",
-                    "capturas": "img/xkdc.png",
+                    "capturas": "img/xkdc.PNG",
                     "cuerpo":"Este proyecto está desarrollado para la clase de clientes, donde mediante una api que devuelve datos, es mostrada toda ella y maquetada en una página web.",
                     "tecnologia": "Uso de AJAX y Api,JS,HTMl,CSS",
                     "botonmodal":"Cerrar"
