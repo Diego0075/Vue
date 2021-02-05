@@ -1,3 +1,11 @@
+input:invalid:required:focus{
+    border: 1px solid red;
+}
+
+input:valid{
+    border: 1px solid green;
+}
+
 body{
     position: relative;
 }
