@@ -27,11 +27,11 @@
             "redes": {
                 "cuerpo":"RRSS",
                 "linkedin":{
-                    "icono":"/img/linkedin.png",
+                    "icono":"img/linkedin.png",
                     "enlace":"https://www.linkedin.com/in/diego-salinas-94a931138/"
                 },
                 "github":{
-                    "icono":"/img/github.png",
+                    "icono":"img/github.png",
                     "enlace":"https://github.com/Diego0075"
                 }
             }
