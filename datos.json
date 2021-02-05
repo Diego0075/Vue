@@ -327,7 +327,7 @@
                     "nombreproyecto":"PcStation",
                     "linpages":" Not available",
                     "linkgithub":"https://github.com/Diego0075/PcStation",
-                    "capturas": "img/pc2.png",
+                    "capturas": "img/pc2.PNG",
                     "cuerpo":"This a project that I created with another mate, we created that web based on a previous design ",
                     "tecnologia": "HTML,CSS, also use of Flexbox and Grid",
                     "botonmodal":"Close"
@@ -338,7 +338,7 @@
                     "nombreproyecto":"Tele-Huerto",
                     "linkpages":"https://diego0075.github.io/JQuery-Proyecto/",
                     "linkgithub":"https://github.com/Diego0075/JQuery-Proyecto",
-                    "capturas": "img/telehuerto.png",
+                    "capturas": "img/telehuerto.PNG",
                     "cuerpo":"This is a project made for two different subjects. It´s about a landing page which load the contain dynamically based on Ajax technology and using JS. To create the design we used Flexbox and Grid as primary raw in CSS",
                     "tecnologia": "CSS,JS,JQuery,HTML5",
                     "botonmodal":"Close"
@@ -348,7 +348,7 @@
                     "nombreproyecto":"XKCD-Comic",
                     "linkpages":"https://diego0075.github.io/XKCD-Comic/",
                     "linkgithub":"https://github.com/Diego0075/XKCD-Comic",
-                    "capturas": "img/xkdc.png",
+                    "capturas": "img/xkdc.PNG",
                     "cuerpo":"This project was created from an api which give to us info and links where I used Js functions to show that information and content",
                     "tecnologia": "Use of AJAX and Api,JS,HTMl,CSS",
                     "botonmodal":"Close"
