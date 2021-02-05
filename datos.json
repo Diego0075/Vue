@@ -12,12 +12,12 @@
             "item7":"Contacto",
             "item8":"Cambiar idioma",
             "item9":"Ingles",
-            "bandera":"/img/ingles.jpg"
+            "bandera":"img/ingles.jpg"
 
         },
 
         "sobremi": {
-            "img":"/img/yo.png",
+            "img":"img/yo.png",
             "nombre": "Diego",
             "apellidos": "Salinas Gámez",
             "direccion" : "C/ Camino Viejo de Güejar Sierra 10 p4 5ºD",
@@ -155,7 +155,7 @@
         "idiomas":{
             "titulo":"Idiomas",
             "idioma1":{
-                "bandera":"/img/ingles.jpg",
+                "bandera":"img/ingles.jpg",
                 "idioma":"Inglés",
                 "1":"Oral",
                 "nivel1":"Nivel - B2",
@@ -203,7 +203,7 @@
         },
 
         "sobremi": {
-            "img":"/img/yo.png",
+            "img":"img/yo.png",
             "nombre": "Diego",
             "apellidos": "Salinas Gámez",
             "direccion" : "C/ Camino Viejo de Güejar Sierra 10 p4 5ºD",
