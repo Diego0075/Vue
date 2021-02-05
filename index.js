@@ -1,8 +1,3 @@
-// $(document).ready(function(){
-//     $("#tooltipex").tooltip({
-        
-//     });
-// });
 
 window.onload = function (){
 
@@ -73,8 +68,67 @@ var app= new Vue({
             }else{
                 return this.datos.ingles.experiencia;
             }
-        }
+        },
 
+        educacionObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.educacion;
+            }else{
+                return this.datos.ingles.educacion;
+            }
+
+        },
+
+        destrezasObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.destrezas;
+            }else{
+                return this.datos.ingles.destrezas;
+            }
+
+        },
+        
+        idiomasObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.idiomas;
+            }else{
+                return this.datos.ingles.idiomas;
+            }
+
+        },
+
+        formObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.form;
+            }else{
+                return this.datos.ingles.form;
+            }
+
+        },
+
+        proyectosObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.proyectos;
+            }else{
+                return this.datos.ingles.proyectos;
+            }
+
+        },
         
     }
 

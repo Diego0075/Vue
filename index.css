@@ -1,4 +1,52 @@
+body{
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    background-color:grey;
+}
 #bandera{
     margin-left: 15px;
     width: 35%;
 }
+
+#tituloidioma{
+    margin-left: 25px;
+}
+
+#imgidioma1{
+    /* margin: auto; */
+    max-width: 350px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
+}
+
+#imgidioma2{
+    /* margin: auto; */
+    max-width: 291px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 767px){
+    #proyecto{
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 15px;
+    }
+
+}
+
+
+/* #huerto{
+max-width: 300px;
+} */
+
+
+ /* #idioma1{
+max-w: 40px;
+ }
+
+ #idioma2{
+    max-height: 400px;
+
+ } */
