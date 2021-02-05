@@ -330,6 +330,27 @@
         <li class="list-group-item"><h3>{{idiomasObtenido.idioma2[3]}}</h3><div class="progress" ><div class="progress-bar progress-bar-striped progress-bar-animated w-100"></div></div><p>{{idiomasObtenido.idioma2.nivel3}}</p></li>
     </div>
 
+    <div class="col-md-12 mt-5 ml-3">
+      <div class="mb-4"><h1>{{referenciasObtenido.titulo}}</h1></div>
+			<div class="media">
+				<img class="mr-3" id="personas" :src="referenciasObtenido.referencia1.img" />
+				<div class="media-body">
+					<h5 class="mt-0">
+						{{referenciasObtenido.referencia1.nombre}}
+					</h5> {{referenciasObtenido.referencia1.cuerpo}}
+					<div class="mt-5 media mt-3">
+						 <a class="pr-3" href="#"><img id="personas" :src="referenciasObtenido.referencia2.img" /></a>
+						<div class="media-body">
+							<h5 class="mt-0">
+                {{referenciasObtenido.referencia2.nombre}}
+							</h5> {{referenciasObtenido.referencia2.cuerpo}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
   <div  class="col-md-12 mt-3">
       <div id="contacto" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
         <h2 class="mb-3">{{formObtenido.titulo}}</h2>

@@ -129,6 +129,18 @@ var app= new Vue({
             }
 
         },
+
+        referenciasObtenido: function(){
+            if (this.datos === null){
+                return "";
+            }
+            if (this.espanol){
+                return this.datos.espanol.referencias;
+            }else{
+                return this.datos.ingles.referencias;
+            }
+
+        }
         
     }
 

@@ -180,6 +180,21 @@
             }
         },
 
+        "referencias":{
+            "titulo":"Referencias",
+            "referencia1":{
+                "img":"img/persona1.jpg",
+                "nombre":"Antonio Puertas",
+                "cuerpo":"Un muy buen empleado, si había que hechar horas extras nunca ponía impedimento."
+            },
+
+            "referencia2":{
+                "img":"img/persona2.jpg",
+                "nombre":"Maria Griso",
+                "cuerpo":"En el bar siempre se le veía con una sonrisa atender. Espero contar con el en futuros veranos"
+            }
+        },
+
         "form":{
             "titulo":"¡Contactame!",
             "nombre":"Nombre",
@@ -365,6 +380,21 @@
                 "3":"Written compression",
                 "nivel3":"Level - Native"
                 
+            }
+        },
+
+        "referencias":{
+            "titulo":"References",
+            "referencia1":{
+                "img":"img/persona1.jpg",
+                "nombre":"Antonio Puertas",
+                "cuerpo":"He was a really good employer, he used to work so hard."
+            },
+
+            "referencia2":{
+                "img":"img/persona2.jpg",
+                "nombre":"Maria Griso",
+                "cuerpo":"When he was working in the bar always was smiling. I hope to work with him next year"
             }
         },
 
